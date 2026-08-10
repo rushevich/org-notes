@@ -1,0 +1,31 @@
+#+TITLE: Org Mode Manual Section 2 Notes
+#+AUTHOR: George Rushevich
+#+STARTUP: overview
+
+* 2.5 Sparse Trees
+What is a *sparse tree*?
+- Simply put, a /dynamic/ view of a (typically) large document
+- Designed to be able to fold segments of text that aren't currently relevant to improve the documents readability while maintaining dense and comprehensive technical documents
+
+Org mode has various useful commands that can turn a document that has good use of headings into a sparse tree keyed by said headings.
+
+Most relevant is ~C-c l~ for ~org-sparse-tree~.
+
+* 2.6 Plain Lists
+We can construct unordered lists using '-', '+', or '*' as bullets.
+
+Ordered lists can be made with either '1)' or '1.'
+1. ordered list items
+2. follow this structure
+
+or this structure
+1) analogous
+2) structure
+   - we can also nest the lists, naturally
+3) then move back out using binds like ~M-S-ret~
+We can make the list start with a specific number using ~[@N]~ where N is the desired starting point
+
+Recall that we can use ~M-ret~ to continue an ordered or unordered list
+
+We can also make descriptions for list items by separating the item name and the description with '::'
+- Some term :: its description
