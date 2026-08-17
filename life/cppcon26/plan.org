@@ -1,0 +1,34 @@
+#+TITLE: Event Plan
+#+startup: overview
+
+* General stuff
+Arrive <2026-09-13 Sun> -> check into hotel, be there for opening plenary
+
+** Monday, September 14
+
++ 11:00 Block - Queue Discipline or just network :: Other options are kind of mid. Chess computing is another option if the concepts are transferrable
++ 14:00 Block - Contract assertion or Familiar C++ patterns at scale :: contracts are an interesting and relevant feature of C++26
++ 15:15 Block - Latency slippage or CRG :: seem cool
++ 16:45 Block - no idea
+
+** Tuesday, September 15
+
++ 9:00 Block - Processor Design or Implementing Containers or Death by a Thousand Tape Entries :: I'm not writing these anymore
++ 14:00 Block - C++ at scale
++ 15:15 Block - Lock-free timer scheduling or maybe back to basics concepts
++ 16:45 Block :: Type erasure or practical HPC
+
+** Wednesday, September 16
+
++ 9:00 Block - C++26 reflection
++ 14:00 Block - Upcoming features
++ 15:15 Block - High performance parsers
++ 16:45 Block - Any of: clocks, C++ core guidelines, CMake, boilerplate reduction
+
+** Thursday, September 17
++ 9:00 Block - Monads, modules, or writing low latency C++
++ 14:00 Block - Zero cost abstractions, type punning, or reflection for language bindings
++ 15:15 Block - Biggest CS misconception, or jason turner talk (but it seems like slop)
++ 16:45 Block - Branch predictor
++ 
+  
