@@ -1,0 +1,13 @@
+#+TITLE: Notes on the Minibuffer
+#+AUTHOR: George Rushevich
+
+* 10 The Minibuffer
+
+** 10.1 Using the Minibuffer
+Nothing here
+
+** 10.2 Minibuffers for File Names
+Nothing here
+
+** 10.3 Editing in the Minibuffer
+The minibuffer is still fundamentally an _emacs buffer_.

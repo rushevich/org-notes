@@ -1,0 +1,20 @@
+#+TITLE: Emacs Manual Section 9 Notes
+#+AUTHOR: George Rushevich
+
+** 9.8 Continuation Lines
+
+When lines are wrapped (into visual lines), it's important to remember that commands like ~C-k~ for ~kill-line~ act on logical lines by default.
+
+** 9.9 Cursor Position Information
+
+Some useful commands for cursor position:
+~M-x what-line~
+~M-= count-words~ 
+
+** 9.10 Numeric Arguments
+
+Numeric arguments can be accomplished with either:
++ ~M-N~ where N is the number
++ ~C-u N~ :: This is the "universal argument syntax". On its own, ~C-u~ also represents 4 times.
+
+For the case of ~M-N~, if entering a multi-digit argument, only the first digit must be pressed while still holding meta.
