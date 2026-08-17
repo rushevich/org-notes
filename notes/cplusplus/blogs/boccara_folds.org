@@ -1,0 +1,71 @@
+#+TITLE: Notes on "C++ Fold Expressions 101" by Jonathan Boccara
+
+* C++17 Introduced Fold Expressions
+
+Simply put, the fold expression is an instruction to the compiler to repeat the application of some operator (e.g. ~operator<<~) over a variadic template pack (~template <typename... Args>~)
+
+Two aspects of folds:
+- the expression containing the fold is surrounded by a parenthesis.
+- the repetition is created by a pairing of an operator with the ellipsis -- ~...~
+
+#+BEGIN_SRC C++ :results output :main no :flags -std=c++26 :includes <print>
+  template <typename... Values>
+  auto sum(const Values&... values) {
+    return (values + ...);
+  }
+
+  int main() {
+      std::println("Sum of 5, 3, 6, 1, 6 is: {}", sum(5,3,6,1,6));
+      return 0;
+  }
+#+END_SRC
+
+#+RESULTS:
+: Sum of 5, 3, 6, 1, 6 is: 21
+
+* Mechanics of Folds
+
+** Associativity of Folds
+
+We can loosely describe the associativity of a fold expression (involving 2 or more invocations of an operator) as such:
+- ~(value1 + value2) + value3~ :: left associative
+- ~value1 + (value2 + value3)~ :: right associative
+
+When we write the fold on the *right* of an operator, we can say that the fold is right associative.
+
+For example:
+
+src_C++[]{return (values + ...); }
+
+Evaluates to
+
+src_C++[]{return v1 + (v2 + v3); }
+
+/(when called with 3 arguments)/
+
+Inverting the ellipsis yields the _opposite_ associativity.
+
+** Handling empty (parameter) packs
+
+If we leave our function as is, it will error (compiler) when we pass in /no/ arguments. This is because the compiler cannot fold over an empty expansion with an operator (you can't just use =operator+= on nothing).
+
+We can solve this by introducing a sort of "base case":
+
+#+BEGIN_SRC C++ :main no :includes <print> :result outputt :flags -std=c++26
+  template <typename... Values>
+  auto sum(const Values&... values) {
+    // Old version
+    // return (values + ...); 
+    return (0 + ... + values); // left fold
+  }
+
+  int main() {
+      std::println("Sum of nothing is: {}", sum());
+      return 0;
+  }
+#+END_SRC
+
+#+RESULTS:
+: Sum of nothing is: 0
+    
+This concludes a basic introduction

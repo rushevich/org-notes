@@ -1,0 +1,37 @@
+#+TITLE: Notes on "Three types of name lookups in C++"
+
+* Lookups when using a name in C++
+
+We can partition lookups into three different types:
++ Qualified name lookup
++ Unqualified name lookup
++ ADL
+
+** Qualified Name Lookup
+
+When qualifying a name with the scope resolution operator (~::~), the compiler looks up the names from left to right
+
+Simply, this does not search any enclosing outer scopes, just the specified ones
+
+** Unqualified Lookups
+
+Referring to names that are not qualified with the scope resolution operator.
+
+In contrast to qualified name lookups, unqualified lookups start at the innermost scope and work outwards.
+
+This is also the mechanism that is responsible for *shadowing* mishaps.
+
+The order of checking is as follows:
+1) Local scope
+2) Class or struct scope
+3) Namespace scopes
+4) Global scope
+5) Namespaces introduces through namespace directives (same priority as global scope)
+
+If there is any ambiguity between global and namespace-directive introduces names, it is a _compilation error_.
+
+** ADL (also known as Koenig Lookup)
+
+This is the /meat/!
+
+/Only applies to function calls/ - considers namespaces containing function arguments when looking up the function name.
