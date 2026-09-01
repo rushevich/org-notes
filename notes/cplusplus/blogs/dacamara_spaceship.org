@@ -1,0 +1,64 @@
+#+TITLE: Notes on Cameron DaCamara's "Simplify Your Code With Rocket Science: C++20's Spaceship Operator"
+
+Source link: [[https://devblogs.microsoft.com/cppblog/simplify-your-code-with-rocket-science-c20s-spaceship-operator/]]
+
+* Spaceship Operator
+
+Introduced in the *C++20* standard: spaceship operator, =operator<=>=
+
+The goal of introducing this operator was to reduce the massive boilerplate in application code for UDTs that required comparison operators.
+
+* Mechanics
+
+** Basics
+
+It's important to include header =<compare>=.
+
+A sample implementation:
+#+BEGIN_SRC C++
+#include <compare>
+struct IntWrapper {
+  int value;
+  constexpr IntWrapper(int value): value{value} { }
+  auto operator<=>(const IntWrapper&) const = default;
+};
+#+END_SRC
+
+The return type of the above operator is deduced as =std::strong_ordering=.
+[[https://en.cppreference.com/cpp/utility/compare/strong_ordering][cppreference]]
+
+** Rewriting Expressiosn
+
+C++20 brings about a new feature in terms of compilation: /rewritten/ expressions. (the first two candidates that are subject to rewritten expressions are the spaceship operator and =operator===)
+
+Overload resolution is changed slightly for relational and equivalency operations - the compiler now gathers/considers special rewritten and syntehsized candidates.
+
+Example:
+- Compiler searches for candidate for a < b for some type T.
+- Compiler sees that T's namespace has =operator<=>=
+- Compiler rewrites a < b as (a <=> b) < 0
+
+The spaceship operator provides not a binary / true-false results, but a three-way comparison result, an _ordering_.
+
+4 <=> 5 returns =std::strong_ordering::less=, implying that 4 is different from 5 and specifically less than it.
+
+** Synthesizing Expressions
+
+The spaceship operator also allows other comparisons such as 42 < a where a is some other type to function properly. ( if type is some integer wrapper in this case)
+
+In trying to select a candidate for 42 < a, the compiler will try 42 <=> a < 0, but fail due to the face that there is no conversion from IntWrapper to int to satisfy the LHS.
+
+The compiler can then rewrite the expression as 0 < (a <=> 42). This works, assuming of course that a has a converting constructor to int.
+
+** Performance Consideration
+
+There was a consideration that the =operator=== would always fully perform lexicographical comparison.
+
+That is, if we have "foo" and "foobar", it would take up until '\0' and 'b' for the program to spit out false, whereas the sizes can be compared in constant time to determine the right answer.
+
+The spaceship operator automatically generates the proper comparison function for operator==, using the correct, different behavior. So we can still simply write spaceship operator.
+
+
+** Specifics of Overload Resolution
+
+The rules were tweaked, obviously, to account for synthesized/rewritten expressions. There is a new tiebreaker where the compiler prefers overloads that are not rewritten/synthesized. So there won't be ambiguity if the user both writes spaceship and a specified comparison operator.

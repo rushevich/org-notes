@@ -23,6 +23,7 @@ Two aspects of folds:
 #+RESULTS:
 : Sum of 5, 3, 6, 1, 6 is: 21
 
+
 * Mechanics of Folds
 
 ** Associativity of Folds
@@ -51,7 +52,7 @@ If we leave our function as is, it will error (compiler) when we pass in /no/ ar
 
 We can solve this by introducing a sort of "base case":
 
-#+BEGIN_SRC C++ :main no :includes <print> :result outputt :flags -std=c++26
+#+BEGIN_SRC C++ :main no :includes <print> :result output :flags -std=c++26
   template <typename... Values>
   auto sum(const Values&... values) {
     // Old version
@@ -67,5 +68,5 @@ We can solve this by introducing a sort of "base case":
 
 #+RESULTS:
 : Sum of nothing is: 0
-    
+
 This concludes a basic introduction

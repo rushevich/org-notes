@@ -1,0 +1,26 @@
+#+TITLE: Notes regarding Student Gov Finance
+#+AUTHOR: George Rushevich
+#+STARTUP: overview
+
+* Fundamental Info
+
+C++ club is _non-sponsored_ - we do not have a UF faculty advisor, and operate more or less separately from the university.
+
+** Eligibility for Funding
+
+We are a registered organization, and hence we need to register with the Department of Community & Belonging (CoBe).
+
+*NOT* allowed to collect fees/dues.
+
+** Key Terms
+
+- Docutraq :: Online system for student orgs to request and use SG funding
+- Budget Requests :: Itemized summary / estimate of organizations expected costs for upcoming semesters
+- SAR :: student activity request , for reviewing and approving access to general funds (not travel related)
+- TAR :: SAR but for travel related
+
+Important links, docutraq:
+- [[https://sg.ufl.edu/resources/budget][Setup Funding]]
+- [[https://www.docutraq.sg.ufl.edu/][Docutraq Access]]
+
+*Note: will need to grant access to website to VP and secretary
