@@ -1,0 +1,99 @@
+#+TITLE: Job Applications Tracker 2026
+#+AUTHOR: George Rushevich
+#+TODO: APPLIED OA INTERVIEW | OFFER REJECTED GHOSTED 
+
+/Link Reference/:
+https://www.linkedin.com/in/rushevich-g/
+https://www.github.com/rushevich
+* Preface
+I am predominantly applying to low-level C++ systems-design jobs, and
+specifically for new-grad / junior positions. I would like to get out
+of Florida, and up to the North-East or Western America, but I will
+consider all positions depending on a variety of factors.
+
+* Leads
+/Use the ~LEAD~ snippet/
+
+Here will be postings that I have found / am interested in but have
+not yet applied to. 
+
+* Applications [0/8]
+/Use the ~APP~ snippet./
+
+** APPLIED DeepFin :: Graduate Quant. Dev.
+:PROPERTIES:
+:LINK:     [[https://job-boards.eu.greenhouse.io/deepfinresearch/jobs/4737473101?gh_src=l4jrf5c2teu]]
+:APPLIED:  [2026-09-02]
+:RESUME:   V1
+:LOCATION: NYC, NY
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-03 Thu>
+
+** APPLIED DV Trading :: Graduate SWE
+:PROPERTIES:
+:LINK:     [[https://my.greenhouse.io/applications/77205756]]
+:APPLIED:  [2026-09-02]
+:RESUME:   V1
+:LOCATION: NYC, NY
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-03 Thu>
+
+** APPLIED Balyasny :: Junior C++ Developer
+:PROPERTIES:
+:LINK:     [[https://bambusdev.my.site.com/s/]]
+:APPLIED:  [2026-09-02]
+:RESUME:   V1
+:LOCATION: NYC
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-03 Thu>
+
+** APPLIED Ellipsis Labs :: Software Engineer, NGs
+:PROPERTIES:
+:LINK:     [[https://jobs.ashbyhq.com/ellipsislabs/256c2ec2-01c8-4ff6-9ad0-b926fe40472d/application?utm_source=XElaYb14r0]]
+:APPLIED:  [2026-09-02]
+:RESUME:   V1.1
+:LOCATION: NYC
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-03 Thu> 
+
+** APPLIED BAE Systems :: SWE
+:PROPERTIES:
+:LINK:     [[https://sjobs.brassring.com/TGnewUI/ApplyWithPreLoad?partnerid=25771&siteid=5403&bruid=^ftffxdi2WD%2BiaUPx8xFzu5PKex89BAJkZ%2BX3HZI5ID8%3D&reqid=302953&localeid=1033&tqid=697&aipid=0&pageid=0&noback=&fromSM=true&ShowNewPolicy=False&wftype=-1#Applications]]
+:APPLIED:  [2026-09-02]
+:RESUME:   V1.1
+:LOCATION: Greenlawn, NY
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-03 Thu>
+** APPLIED VAST Data :: Top Grad SWE
+:PROPERTIES:
+:LINK:     [[https://www.comeet.com/jobs/vastdata/43.001/top-graduate-software-engineer---v-force---new-york/B7.765?coref=1.11.p4C_1A13]]
+:APPLIED:  [2026-09-02]
+:RESUME:   V1.1
+:LOCATION: NYC
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-03 Thu>
+
+** APPLIED Ambral :: Member of Technical Staff (NG)
+:PROPERTIES:
+:LINK:     [[https://jobs.ashbyhq.com/Ambral/bfcfbd07-03b9-4e7c-82b1-b17d7c3a5e90/application?utm_source=A7809BRO5z]]
+:APPLIED:  [2026-09-02]
+:RESUME:   V1.1
+:LOCATION: NYC, NY
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-03 Thu>
+** APPLIED Wolverine Trading :: Entry Level C++ SWE
+:PROPERTIES:
+:LINK:     [[https://careers.wolve.com/postings/1f33c89b-2592-498d-b45a-1b2092cf944e]]
+:APPLIED:  [2026-09-03]
+:RESUME:   V1.1
+:LOCATION: Chicago, IL
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-03 Thu>
