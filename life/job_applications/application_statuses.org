@@ -1,6 +1,7 @@
 #+TITLE: Job Applications Tracker 2026
 #+AUTHOR: George Rushevich
-#+TODO: APPLIED OA INTERVIEW | OFFER REJECTED GHOSTED 
+#+TODO: APPLIED OA INTERVIEW | OFFER REJECTED GHOSTED
+#+STARTUP: overview
 
 /Link Reference/:
 https://www.linkedin.com/in/rushevich-g/
@@ -17,7 +18,7 @@ consider all positions depending on a variety of factors.
 Here will be postings that I have found / am interested in but have
 not yet applied to. 
 
-* Applications [0/8]
+* Applications [0/17]
 /Use the ~APP~ snippet./
 
 ** APPLIED DeepFin :: Graduate Quant. Dev.
@@ -88,7 +89,7 @@ SCHEDULED: <2026-09-03 Thu>
 :END:
 *** TODO Discover and reach out to reference
 SCHEDULED: <2026-09-03 Thu>
-** APPLIED Wolverine Trading :: Entry Level C++ SWE
+** OA Wolverine Trading :: Entry Level C++ SWE
 :PROPERTIES:
 :LINK:     [[https://careers.wolve.com/postings/1f33c89b-2592-498d-b45a-1b2092cf944e]]
 :APPLIED:  [2026-09-03]
@@ -97,3 +98,71 @@ SCHEDULED: <2026-09-03 Thu>
 :END:
 *** TODO Discover and reach out to reference
 SCHEDULED: <2026-09-03 Thu>
+** APPLIED Huxley :: C++ Low Latency Trading Systems Dev
+:PROPERTIES:
+:LINK:     [[https://www.aplitrak.com/generic/submit.cgi]]
+:APPLIED:  [2026-09-05]
+:RESUME:   V1.1
+:LOCATION: NYC
+:END:
+*** TODO Discover and reach out to reference
+** APPLIED Freeform :: C++ SWE
+:PROPERTIES:
+:LINK:     [[https://my.greenhouse.io/dashboard]]
+:APPLIED:  [2026-09-05]
+:RESUME:   V1.1
+:LOCATION: LA, CA
+:END:
+*** TODO Discover and reach out to reference
+SCHEDULED: <2026-09-06 Sun>
+** APPLIED OP Recruiting :: SWE C++
+:PROPERTIES:
+:LINK:     [[https://www.linkedin.com/jobs/search-results/?currentJobId=4455541108&eBP=CwEAAAGgc3IPulrInczjLafbXiZ6Hq53SMmM0HJucAStVC5I5pTajRJ4kyxxZO0ufZWr-EuRIIrbld8jkLISC51ZzQ3_Hr8fdRxq2_2gh0OLu0WbWuHR2GJVrAryIXDeJFUSHf_uvQOxy5n1iseLTYK28EE2YiGwTsY72VUt-1o0DaDJdBx-ej19sPrRLrMnp4EkrHXSQYP5imUhRBH6ej51SEc6iPo2mPEzrs8EwPIb_MoRNmDEWbMrbgs9uXeUDwgkG_71ejLCfNiiqHwXoMX0_ZJT_en_ObUk1nls1HuksCeaX8J0QCyZH8WOprmcmf23SYmMU-mzEgXEjkF2Lmq_tvT9nYK0dNlCB_PjnOtwXP0wh1M8jsK2u7HZHAj_QTot4Yy2U5YpLTCLltkR2TA-DWqipD3pQ1KWW_g8bw1LMfWV2DhqogHRYFp13MM8DztsIveGnvPYLGVJnGK5P5zMARX4XiWpfTpaa1gFQwzT&refId=jzuHGsXaYTgEEbIJuaKULA%3D%3D&trackingId=zpPd1rHstoGgs5nPJvYsAA%3D%3D&keywords=c%2B%2B%20new%20grad&origin=JOB_SEARCH_PAGE_LOCATION_AUTOCOMPLETE&geoId=103644278]]
+:APPLIED:  [2026-09-05]
+:RESUME:   V1.1
+:LOCATION: Chicago, IL
+:END:
+** APPLIED ARM :: Graduate Pathways
+:PROPERTIES:
+:LINK:     [[https://earlycareers-arm.icims.com/jobs/19311/graduate-program---engineering-pathways/job?mode=submit_apply]]
+:APPLIED:  [2026-09-05]
+:RESUME:   V1.1
+:LOCATION: Seattle, WA
+:END:
+** APPLIED Edgehog :: Graduate SWE
+:PROPERTIES:
+:LINK:     [[https://ats.rippling.com/edgehog-trading/jobs]]
+:APPLIED:  [2026-09-05]
+:RESUME:   V1.2
+:LOCATION: Chicago, IL
+:END:
+** APPLIED Aquatic :: SWE Early Career
+:PROPERTIES:
+:LINK:     [[https://my.greenhouse.io/dashboard]]
+:APPLIED:  [2026-09-05]
+:RESUME:   V1.2
+:LOCATION: Chicago, IL
+:END:
+** APPLIED Akuna :: Graduate C++ SWE
+:PROPERTIES:
+:LINK:     [[https://my.greenhouse.io/dashboard]]
+:APPLIED:  [2026-09-06]
+:RESUME:   V1.2
+:LOCATION: Chicago, IL
+:END:
+** APPLIED TikTok :: C++ SWE
+:PROPERTIES:
+:LINK:     [[https://www.linkedin.com/jobs/search-results/?currentJobId=4455444396&eBP=CwEAAAGgdOi_yiGBfetGGr-8jwkTwcOXmE63g3u8VswxBG-LTAFY-loDWXztHHjXrkkaDDkoVK5o1zUTNIi5WgkZozWbrY3Si4loGSOg98YkVTrCuf2guQb7gtwrmlkn495m_lO-saLWXqVS4-Qx5t9xZR-cps409LJ77IdbRnZB34IDd_qvwhyY-F0mhhU5dsnlZVVkqlBpO5dMd4TBWDhU25oLeXvqA0JS60al6AzyZ99GQ8Q90_RpnIXaUyo0ZWrS4KhPygnBHtm9WBiWQUzwWcu40wt1m_y8qL9YUP8LP8Awo4MkFD5ayActf9BgMKHEkQGfDH_v8wj7kMVrjz1uHsAy6rCNcSmnNoqtmwKzdgDqMCozsyCzVd9bcO4Nt1YD0gUqe4-gPnyVzzCWHk0Q09gtc0WUX67ue-PwyZ4nt0wk-gQ17YoPOI5-BV1vrZho-s5dOKMn32Nd_qeu2gEEw-mgyOiZ74tLlkidhJijHNps6Q&refId=6EcxsrT7QXkV8yVamAVjbw%3D%3D&trackingId=m2vxQAI9fhfTz8zpWgLZBQ%3D%3D&keywords=c%2B%2B%20new%20grad&origin=JOB_SEARCH_PAGE_LOCATION_AUTOCOMPLETE&start=25&geoId=103644278]]
+:APPLIED:  [2026-09-06]
+:RESUME:   V1.2
+:LOCATION: San Jose, CA
+:END:
+** APPLIED 3Red Partners :: Graduate C++ Dev
+:PROPERTIES:
+:LINK:     [[https://job-boards.greenhouse.io/3redpartners/jobs/8631086002]]
+:APPLIED:  [2026-09-06]
+:RESUME:   V1.2
+:LOCATION: Chicago, IL
+:END:
+
+
