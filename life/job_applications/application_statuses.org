@@ -18,7 +18,7 @@ consider all positions depending on a variety of factors.
 Here will be postings that I have found / am interested in but have
 not yet applied to. 
 
-* Applications [0/17]
+* Applications [1/22]
 /Use the ~APP~ snippet./
 
 ** APPLIED DeepFin :: Graduate Quant. Dev.
@@ -143,7 +143,7 @@ SCHEDULED: <2026-09-06 Sun>
 :RESUME:   V1.2
 :LOCATION: Chicago, IL
 :END:
-** APPLIED Akuna :: Graduate C++ SWE
+** OA Akuna :: Graduate C++ SWE
 :PROPERTIES:
 :LINK:     [[https://my.greenhouse.io/dashboard]]
 :APPLIED:  [2026-09-06]
@@ -157,7 +157,8 @@ SCHEDULED: <2026-09-06 Sun>
 :RESUME:   V1.2
 :LOCATION: San Jose, CA
 :END:
-** APPLIED 3Red Partners :: Graduate C++ Dev
+** REJECTED 3Red Partners :: Graduate C++ Dev
+CLOSED: [2026-09-09 Wed 08:39]
 :PROPERTIES:
 :LINK:     [[https://job-boards.greenhouse.io/3redpartners/jobs/8631086002]]
 :APPLIED:  [2026-09-06]
@@ -165,4 +166,39 @@ SCHEDULED: <2026-09-06 Sun>
 :LOCATION: Chicago, IL
 :END:
 
+** APPLIED Belvedere Trading :: Entry Level SWE
+:PROPERTIES:
+:LINK:     [[https://jobs.lever.co/belvederetrading]]
+:APPLIED:  [2026-09-06]
+:RESUME:   V1.2
+:LOCATION: Chicago, IL
+:END:
+** APPLIED SIG :: Trading Systems Eng. NG
+:PROPERTIES:
+:LINK:     [[https://careers-sig.icims.com/jobs/11349/trading-system-engineer---new-grad/job?mode=submit_apply&from=assessment]]
+:APPLIED:  [2026-09-06]
+:RESUME:   V1.2
+:LOCATION: Bala-Cyrnwyrd, PA
+:END:
+** APPLIED SpaceX :: SWE C++
+:PROPERTIES:
+:LINK:     [[https://my.greenhouse.io/dashboard]]
+:APPLIED:  [2026-09-06]
+:RESUME:   V1.2
+:LOCATION: Redmond, WA
+:END:
+** OA Roblox :: Early Career SWE
+:PROPERTIES:
+:LINK:     [[https://careers.roblox.com/jobs/8072244?gh_jid=8072244&gh_src=da92d0c91]]
+:APPLIED:  [2026-09-06]
+:RESUME:   V1.2
+:LOCATION: San Mateo, CA
+:END:
+** APPLIED Cadence :: Adams App. SWE (Early Career)
+:PROPERTIES:
+:LINK:     [[https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/userHome]]
+:APPLIED:  [2026-09-06]
+:RESUME:   V1.2
+:LOCATION: Livonia, MI
+:END:
 

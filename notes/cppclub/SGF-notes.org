@@ -24,3 +24,97 @@ Important links, docutraq:
 - [[https://www.docutraq.sg.ufl.edu/][Docutraq Access]]
 
 *Note: will need to grant access to website to VP and secretary
+** Docutraq
+How to update officers in Docutraq:
+1. Email SAI@ufsa.ufl.edu with full org name, new officer student names, titles, and UFIDs
+2. Then follow the instructions in /How To Get Funded by SG/ on the SG website [[https://sg.ufl.edu/resources/budget/]]
+
+** Budget Types
+- Base :: Can be used for tech, GBMs, advertising, events
+- Operational :: Approved by Budget and Appropriations Committee -- GBMs, food for GBMs, awards, and non-event related advertising
+- Event :: All events excluding GBMs or tabling. up to $20k per budgeted semester
+- Travel :: Budget for expenses related to travel beyond UF’s campus
+
+** Budgeted Semesters
+Two budgeted semesters, defined by when the *activity starts*:
+- Summer B / Fall :: activities starting July 1 - December 31
+- Spring / Summer A :: activities starting January 1 - June 30
+
+Budget request windows are scheduled months ahead of each start date so the committees have time to review and approve. Plan backwards from this, not from the event date.
+
+** SAR Descriptions
+
+One description line must contain the following:
+- Where will event be held, and what time?
+- How many people are expected to attend (if using food line)
+- Must be descriptive if purchasing items like supplies, food, etc.
+- Presidents / treasurers should be requesting this info if missing
+
+** Reimbursements
+Student turning in the receiupts will be the vendor listed on the SAR/TAR and must submit all the receipts at one time
+Receipts must be itemized with proof of purchase and submitted within 30 days from the date listed on the SAR/TAR
+
+Preferred option: scan and email receipts in pdf/jpg format to: sgfdocuments@sg.ufl.edu with subject line ~Receipts for SR (or TAR) ###~
+
+See also [[*Travel]] for the travel-specific version of this rule.
+
+* Budget Lines
+
+Spending is governed by the 808 codes, which are strict about both what you buy and how you buy it. Current balances for every line live in Docutraq.
+
+Available lines: Programs, Food, Advertising, Honorariums, Copies, Awards, Travel, Base Funding.
+
+*Code 808.8 lists all funding limits.* Check it before writing a request.
+
+** Advertising
+Covers social media ads, banners, flyers, clothing, promo items, websites, and similar.
+
+- *Never use copyrighted images.* SG funds cannot be used to pay fines levied against you for usage.
+- Items must be listed *separately by quantity and unit price* on the SAR. This is the most common reason requests get bounced.
+- Promo items: $3.00 per unit maximum. Setup and design charges count toward that cap; freight and taxes do not.
+- Promotional clothing (shirts, hats, totes, caps): $18 per unit.
+- Clothing bought with SG funds *cannot be sold*, so no selling club shirts we funded this way.
+
+** Programs
+Covers venue rental, decorations, supplies, and similar.
+
+- $500 cap on decorations per event, $400 cap on wet labs.
+- Equipment can be requested under Base Funding. Otherwise it must be listed ahead of time on an approved Event Budget Request.
+- SAR items must be itemized. Writing "supplies" is not enough.
+- Code 810.2 #12 lists which Programs items the Operational Budget will fund.
+- Code 808.7: off campus recreational activities (as defined in 800.28) are only half funded under the Programming line when an on-campus equivalent or similar alternative exists. B&A decides during review.
+
+** Food
+- *Must state expected number of attendees* and exactly what is being purchased, in the SAR description.
+- $7.00 per student maximum.
+- No Coke products. UF has a Pepsi contract, so Coke purchases cannot be reimbursed.
+- Delivered on-campus catering must use a UF approved caterer: [[https://www.bsd.ufl.edu/catering]]
+- Palm & Pine holds exclusive rights at certain locations: [[https://businessservices.ufl.edu/services/catering/classic-fare-exclusive-catering-locations/]]
+- In the Reitz Union, any UF approved caterer can be used if attendance is 40 or fewer.
+
+** Honorariums
+Any individual or group providing a service on UF campus, paid a stipend agreed on by both parties to cover expenses. Examples: performers, speakers, photographers. Payment can include their fee plus travel expenses.
+
+- Students are *not* to pay honorarium expenses out of pocket.
+- Up to $5,000 per budgeted semester, requested on an Event Budget Request.
+- Caps: DJs $200, photographers $750.
+- *Base Funding cannot be used for honorariums.*
+
+** Copies
+- Use the SG copy center, room 2365 of the Reitz Union. No SAR needed.
+- Contact the Copy Center any time for the current balance.
+- *Not available under Base Funding.*
+
+** Awards
+- $40 maximum per award.
+- Must be competitive based.
+
+** Base Funding
+Used for technology, general body meetings, advertising, or events. Cannot cover honorariums, and copies are not available under it.
+
+** Travel
+TARs must be submitted and approved by the Org President and Treasurer at least 30 days before the travel date, and no later than 10 business days (two weeks) out.
+
+- Only the President or Treasurer can edit the "Pay Up To" column on the TAR.
+- $500 reimbursement per person, capped at $3,000 per trip (6 or more travelers).
+- Auto rental is required through
