@@ -1,0 +1,7 @@
+#+TITLE: Notes on ~std::recursive_mutex~
+
+/Note: probably shouldn’t use this -- if you reach for it, it’s probably a poorly designed API/
+
+With an ordinary ~std::mutex~, it is UB to lock the mutex if it is already locked. This is where a recursive_mutex comes in: simply put, it can be locked several times by the same thread, provided that unlock is called an equal amount of times. However, if you are in a situation where you find your shared data following function calls and being locked repeatedly, it is most often a case of poor API design.
+
+One example is some class / structure where member functions call each other and the member functions all need locking.

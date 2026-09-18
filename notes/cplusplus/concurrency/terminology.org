@@ -1,0 +1,12 @@
+#+TITLE: Documentation of Various Terminologies Related to Concurrency (in CS at large)
+
+** *Spurious failure*
+- Definition :: a-la false-positive -- when a weak test-and-set, for instance, reports false even though the tested value actually contained the expected value.
+- Cause :: Typically associated with OS or hardware-related hiccups due to non-atomic / chained instruction implementations of CAS. For instance, while x86 has one lock cmpxchg instruction that can not spuriously fail, other platforms commonly implement CAS with two instructions: load-linked and store-conditional (ll, sc). Load-linked sets a monitor on the loaded address, and store conditional only commits if this monitor is unperturbed between the two instructions. The thing is, the monitor can be cleared by a number of things: cache line eviction, interrupts,false sharing on the same cache line, preemptions, or context switches. Spurious failures arise when store-conditional is not able to commit when one of these events occurs between it, and ll.
+
+** Deadlock
+- Definition :: a notorious concurrency bug -- when two (or more threads) fail to progress at all because each one is waiting on a resource (a lock, usually) that is currently held by the other.
+- Avoidance :: lock the mutexes in the same, fixed order. or in C++, use ~std::lock~. Avoid nested locks: deadlock is impossible if you never try to acquire more than one lock.
+
+** Lock Granularity
+- Definition :: simple -- the amount of data that is protected by a lock. more specifically -- also how long the lock is held, and what operations are performed in the duration that the lock is held

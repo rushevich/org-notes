@@ -1,0 +1,21 @@
+#+TITLE: Notes on ~std::scoped_lock~
+
+The scoped_lock came with C++17 and solved some ergonomics issue associated with the original, lock_guard. Specifically, locking several mutexes was problematic:
+#+BEGIN_SRC cpp
+  std::mutex m1;
+  std::mutex m2;
+  {
+      std::lock(m1, m2);
+      std::lock_guard(m1, std::adopt_lock);
+      std::lock_guard(m2, std::adopt_lock);
+  }
+#+END_SRC
+
+It is much simpler with the *variadic* scoped_lock:
+#+BEGIN_SRC cpp
+  {
+      std::scoped_lock(m1, m2);
+  }
+#+END_SRC
+
+It is important to recognize that scoped_lock properly uses the ~std::lock~ deadlock-avoidance if several locks are provided in its constructor.

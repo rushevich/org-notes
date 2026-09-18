@@ -1,0 +1,11 @@
+#+TITLE: Notes on ~std::shared_mutex~
+
+Introduced in C++17, a primitive for protecting shared data that puts forth two methods of access, in contrast to std::mutex:
+- shared :: several threads can share ownership of the mutex
+- exclusive :: single thread can own the mutex
+
+With shared access, many threads can also engage in shared access. Any thread that tries to acquire exclusive access while there are still threads accessing it "sharedly" will block until all of them have relinquished.
+
+Similarly, if a thread has exclusive access, other threads can not acquire neither shared nor exclusive access.
+
+The corresponding functions are ~(try_)lock_shared~ ~(try_)lock~ 

@@ -1,0 +1,11 @@
+#+TITLE: Notes on ~std::unique_lock~
+
+~std::unique_lock~ provides more flexbility in the process of locking than ~std::lock_guard~.
+It is more of a swiss-army knife than the other locking primitives, and you also pay a performance-penalty for this flexibility, since the ~unique_lock~ has to do more bookkeeping to ensure that the mutex is properly managed.
+
+This is primarily done in the ctor -- you can pass in:
+- ~std::adopt_lock~ :: assumes that the mutex is already locked within the current thread, and the unique_lock then assimilates ownership of the lock. Otherwise , UB
+- ~std::defer_lock~ :: does not attempt to lock the mutex
+- ~std::try_to_lock~ :: non-blockingly tries to acquire / lock the mutex
+
+The ~unique_lock~ also properly cleans up in its dtor depending on whether or not it owns the mutex.

@@ -1,0 +1,5 @@
+#+TITLE: Notes on ~std::lock~
+
+std::lock is a free function that can also be used to lock mutexes, and additionally is capable of locking several mutexes "at once" using a proper deadlock avoidance algorithm.
+
+Commonly, this is accomplished by calling lock() on the first provided mutex, then walking the rest and calling try_lock(). If all succeed, perfect! Otherwise, restart the walk at /k/ where k is the first failing index.
