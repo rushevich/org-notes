@@ -1,0 +1,4 @@
+#+TITLE: Random Notes on Caching
+
+Cache-line bouncing: occurs typically in high contention (between threads) contexts, when several threads contend for a lock, typically via RMW (read-modify-write operations), resulting in the cache line moving between shared, exclusive, modified states and causing lots of cache coherency traffic between the contending threads. In this sense, the cache line is "bouncing" between different threads’ caches and changing states constantly.
+

@@ -1,0 +1,14 @@
+#+TITLE: Notes on Signaling Primitives
+
+The primary mechanism for signaling between threads in C++ is ~std::condition_variable~ (or ~std::condition_variable_any~, but this is not commonly used.)
+
+condition variables are typically used in the following manner.
+1) one thread acquires a mutex
+2) it does some work perhaps, then needs to wait on another thread to do some work
+3) call wait with the condition variable -- this does the following:
+   - checks the condition, if this is passed in (reccomended to prevent spurious wakeups)
+   - if false, unlocks the mutex, and sleeps / blocks the thread
+4) the other thread can now acquire the mutex, do its work, and signal back by notifying all or notifying one (threads). before doing so it must also release the mutex
+5) the first thread wakes up, reacquires the mutex, checks the predicate. if true, it then returns to the waiting thread of execution, "lock in-hand"
+
+*Note*: The fact that the condition variable must be able to repeatedly lock and unlock the mutex requires that the passed in lock is a ~std::unique_lock~.
